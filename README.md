@@ -14,7 +14,7 @@
 
 此外，该程序还可以生成比赛交锋的可视化「辩论地图」，清晰地对场上攻防进行可视化的聚类和追踪，帮助辩手学习和把握所谓「战场意识」。
 
-![alt text](“乐子人”是不是真正的快乐.png)
+![“乐子人”是不是真正的快乐](https://github.com/LeafCreeper/Cyber_Debate_Judge/blob/main/%E4%B8%80%E4%BA%9B%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C/%E2%80%9C%E4%B9%90%E5%AD%90%E4%BA%BA%E2%80%9D%E6%98%AF%E4%B8%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%BF%AB%E4%B9%90.png)
 
 ## 原理
 
