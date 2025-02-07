@@ -28,8 +28,8 @@
 
 ## 使用说明
 1. 安装本项目的依赖：`pip install json,matplotlib,zhipuai,scipy,networkx,numpy`
-1. 使用飞书妙记或者腾讯云录制等程序，对辩论赛的音频文本转文字。**（要求必须使用标注了说话人的语音转文字应用）**
-2. 本项目使用的是**智谱清言**的API接口，你可以[在这里自行申请智谱清言的API密钥](https://bigmodel.cn/usercenter/proj-mgmt/apikeys)配置到“main.py”“录音转文字toJson.py”这两份python程序的开头。
+1. 使用飞书妙记或者腾讯会议云录制等程序，对辩论赛的音频文本转文字。**（要求必须使用标注了说话人的语音转文字应用）**
+2. 本项目使用的是**智谱清言**的API接口，你可以[在这里自行申请智谱清言的API密钥](https://bigmodel.cn/usercenter/proj-mgmt/apikeys)配置到“main.py”“录音转文字toJson.py”这两份python程序的开头。你也可以自行修改相关程序的源码，调用ChatGPT、DeepSeek等其他大模型的api接口
 3. 完成文件名和API密钥的配置后，运行“录音转文字toJson.py”，你会得到下面这样的json文件：
 
 ```json
