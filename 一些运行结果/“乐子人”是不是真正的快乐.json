@@ -1,0 +1,682 @@
+[
+  {
+    "id": "node_1",
+    "speaker": "Pro",
+    "text": "乐子人的思维方式能有效缓解压力，保持快乐",
+    "node_type": "new_argument",
+    "base_importance": 1.2,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 1
+  },
+  {
+    "id": "node_2",
+    "speaker": "Pro",
+    "text": "乐子人通过调侃和自我抽离应对压力",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": 0.4,
+    "round_number": 1
+  },
+  {
+    "id": "node_3",
+    "speaker": "Pro",
+    "text": "乐子人拥有独特的防御机制，能保持快乐",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": 0.3,
+    "round_number": 1
+  },
+  {
+    "id": "node_4",
+    "speaker": "Pro",
+    "text": "乐子人思维使快乐独立于社会角色的剧本",
+    "node_type": "new_argument",
+    "base_importance": 1.0,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 1
+  },
+  {
+    "id": "node_5",
+    "speaker": "Pro",
+    "text": "社会角色剧本限制了真正的快乐",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_4",
+    "delta": 0.3,
+    "round_number": 1
+  },
+  {
+    "id": "node_6",
+    "speaker": "Pro",
+    "text": "乐子人打破束缚，实现纯粹的快乐",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_4",
+    "delta": 0.4,
+    "round_number": 1
+  },
+  {
+    "id": "node_7",
+    "speaker": "Con",
+    "text": "乐子人并不一定真正快乐",
+    "node_type": "new_argument",
+    "base_importance": 1.0,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 2
+  },
+  {
+    "id": "node_8",
+    "speaker": "Con",
+    "text": "喜剧演员的抑郁率高",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.3,
+    "round_number": 2
+  },
+  {
+    "id": "node_9",
+    "speaker": "Con",
+    "text": "喜剧的内核是悲剧",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.2,
+    "round_number": 2
+  },
+  {
+    "id": "node_10",
+    "speaker": "Con",
+    "text": "快乐应该追求非功利",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_4",
+    "delta": -0.3,
+    "round_number": 2
+  },
+  {
+    "id": "node_11",
+    "speaker": "Con",
+    "text": "乐子人可能只是强颜欢笑",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_4",
+    "delta": -0.4,
+    "round_number": 2
+  },
+  {
+    "id": "node_12",
+    "speaker": "Con",
+    "text": "乐子人的成因与互联网事件频出有关",
+    "node_type": "new_argument",
+    "base_importance": 1.0,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 3
+  },
+  {
+    "id": "node_13",
+    "speaker": "Con",
+    "text": "互联网爱豆塌房、资本运作等事件导致乐子人出现",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_12",
+    "delta": 0.3,
+    "round_number": 3
+  },
+  {
+    "id": "node_14",
+    "speaker": "Con",
+    "text": "乐子人选择戴上自我防御的面具，无差别嘲讽",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_12",
+    "delta": 0.3,
+    "round_number": 3
+  },
+  {
+    "id": "node_15",
+    "speaker": "Con",
+    "text": "乐子人的快乐状态既不真也不正",
+    "node_type": "new_argument",
+    "base_importance": 1.0,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 3
+  },
+  {
+    "id": "node_16",
+    "speaker": "Con",
+    "text": "乐子人戴上不在乎的面具，无差别嘲讽，选择乐子人士的伤亡态度是在道心破碎后的自我保护",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_15",
+    "delta": 0.3,
+    "round_number": 3
+  },
+  {
+    "id": "node_17",
+    "speaker": "Con",
+    "text": "乐子人把一切当作取乐的素材，缺乏真正的情感投入",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_15",
+    "delta": 0.3,
+    "round_number": 3
+  },
+  {
+    "id": "node_18",
+    "speaker": "Con",
+    "text": "乐子人找乐子的方式漠视他人的情绪",
+    "node_type": "new_argument",
+    "base_importance": 1.0,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 3
+  },
+  {
+    "id": "node_19",
+    "speaker": "Con",
+    "text": "乐子人把互联网上的人和事都当成供他取得的NPC，不在意他人的情绪是否被伤害",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_18",
+    "delta": 0.3,
+    "round_number": 3
+  },
+  {
+    "id": "node_20",
+    "speaker": "Con",
+    "text": "乐子人群聊中恶搞视频取乐，对他人情绪伤害视而不见",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_18",
+    "delta": 0.3,
+    "round_number": 3
+  },
+  {
+    "id": "node_21",
+    "speaker": "Pro",
+    "text": "真正的快乐是发自内心的快乐，不需要道德的评判",
+    "node_type": "new_argument",
+    "base_importance": 1.2,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 4
+  },
+  {
+    "id": "node_22",
+    "speaker": "Con",
+    "text": "漠视他人情绪会导致快乐概念的自毁",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.3,
+    "round_number": 4
+  },
+  {
+    "id": "node_23",
+    "speaker": "Pro",
+    "text": "真正的快乐是抽离状态下的快乐",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_7",
+    "delta": -0.3,
+    "round_number": 4
+  },
+  {
+    "id": "node_24",
+    "speaker": "Con",
+    "text": "喜剧演员的抑郁率高，说明乐子人并不一定快乐",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.3,
+    "round_number": 4
+  },
+  {
+    "id": "node_25",
+    "speaker": "Pro",
+    "text": "纸皮小狗的快乐是真正的快乐",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_4",
+    "delta": 0.4,
+    "round_number": 4
+  },
+  {
+    "id": "node_26",
+    "speaker": "Con",
+    "text": "快乐应该追求非功利，乐子人的快乐是功利的",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_4",
+    "delta": -0.3,
+    "round_number": 4
+  },
+  {
+    "id": "node_27",
+    "speaker": "Pro",
+    "text": "乐子人的出现与互联网事件无关",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_12",
+    "delta": -0.3,
+    "round_number": 4
+  },
+  {
+    "id": "node_28",
+    "speaker": "Con",
+    "text": "互联网事件导致乐子人出现",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_12",
+    "delta": 0.3,
+    "round_number": 4
+  },
+  {
+    "id": "node_29",
+    "speaker": "Pro",
+    "text": "乐子人的快乐是真实的",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_15",
+    "delta": -0.3,
+    "round_number": 4
+  },
+  {
+    "id": "node_30",
+    "speaker": "Con",
+    "text": "乐子人的快乐既不真也不正",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_15",
+    "delta": 0.3,
+    "round_number": 4
+  },
+  {
+    "id": "node_31",
+    "speaker": "Pro",
+    "text": "乐子人不会漠视他人情绪",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_18",
+    "delta": -0.3,
+    "round_number": 4
+  },
+  {
+    "id": "node_32",
+    "speaker": "Con",
+    "text": "乐子人漠视他人情绪",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_18",
+    "delta": 0.3,
+    "round_number": 4
+  },
+  {
+    "id": "node_43",
+    "speaker": "Con",
+    "text": "乐子人戴上不在乎的面具，无差别嘲讽",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_15",
+    "delta": 0.3,
+    "round_number": 5
+  },
+  {
+    "id": "node_45",
+    "speaker": "Con",
+    "text": "乐子人把互联网上的人和事都当成供他取得的NPC",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_18",
+    "delta": 0.3,
+    "round_number": 5
+  },
+  {
+    "id": "node_58",
+    "speaker": "Con",
+    "text": "乐子人快乐与观众快乐并非同一回事",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.2,
+    "round_number": 6
+  },
+  {
+    "id": "node_59",
+    "speaker": "Pro",
+    "text": "观众在找乐子过程中体验乐子人快乐",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": 0.2,
+    "round_number": 6
+  },
+  {
+    "id": "node_60",
+    "speaker": "Con",
+    "text": "乐子人快乐可能建立在他人不快乐之上",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.3,
+    "round_number": 6
+  },
+  {
+    "id": "node_61",
+    "speaker": "Pro",
+    "text": "乐子人快乐是真实的，不需道德评判",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_15",
+    "delta": -0.3,
+    "round_number": 6
+  },
+  {
+    "id": "node_62",
+    "speaker": "Con",
+    "text": "乐子人快乐缺乏真正情感投入",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_15",
+    "delta": 0.3,
+    "round_number": 6
+  },
+  {
+    "id": "node_64",
+    "speaker": "Con",
+    "text": "乐子人把他人当作取乐素材",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_18",
+    "delta": 0.3,
+    "round_number": 6
+  },
+  {
+    "id": "node_65",
+    "speaker": "Con",
+    "text": "乐子人定义模糊，论证存在偷换概念",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.4,
+    "round_number": 7
+  },
+  {
+    "id": "node_66",
+    "speaker": "Con",
+    "text": "快乐与痛苦相生相克，乐子人快乐不真实",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.3,
+    "round_number": 7
+  },
+  {
+    "id": "node_67",
+    "speaker": "Con",
+    "text": "乐子人快乐与社会角色无关，缺乏深度",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_4",
+    "delta": -0.3,
+    "round_number": 7
+  },
+  {
+    "id": "node_68",
+    "speaker": "Con",
+    "text": "快乐需道德评判，乐子人快乐不真",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_21",
+    "delta": -0.3,
+    "round_number": 7
+  },
+  {
+    "id": "node_69",
+    "speaker": "Con",
+    "text": "乐子人快乐建立在他人不快乐之上",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.3,
+    "round_number": 7
+  },
+  {
+    "id": "node_70",
+    "speaker": "Pro",
+    "text": "乐子人的快乐是真实的，不需道德评判",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_15",
+    "delta": -0.3,
+    "round_number": 8
+  },
+  {
+    "id": "node_71",
+    "speaker": "Pro",
+    "text": "乐子人能够从苦中作乐，快乐是真实的",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_18",
+    "delta": -0.3,
+    "round_number": 8
+  },
+  {
+    "id": "node_78",
+    "speaker": "Con",
+    "text": "乐子人的快乐建立在他人不快乐之上",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.4,
+    "round_number": 9
+  },
+  {
+    "id": "node_80",
+    "speaker": "Con",
+    "text": "乐子人快乐定义模糊，论证存在偷换概念",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": -0.4,
+    "round_number": 9
+  },
+  {
+    "id": "node_84",
+    "speaker": "Pro",
+    "text": "乐子人通过抽离状态实现快乐",
+    "node_type": "new_argument",
+    "base_importance": 1.2,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 10
+  },
+  {
+    "id": "node_85",
+    "speaker": "Pro",
+    "text": "乐子人不必然具有攻击性",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": 0.4,
+    "round_number": 10
+  },
+  {
+    "id": "node_86",
+    "speaker": "Pro",
+    "text": "乐子人并非漠视他人情绪",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_18",
+    "delta": -0.3,
+    "round_number": 10
+  },
+  {
+    "id": "node_87",
+    "speaker": "Pro",
+    "text": "快乐可以独立于社会角色存在",
+    "node_type": "new_argument",
+    "base_importance": 1.0,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 10
+  },
+  {
+    "id": "node_88",
+    "speaker": "Pro",
+    "text": "儿童时期的快乐是纯粹的",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_4",
+    "delta": 0.4,
+    "round_number": 10
+  },
+  {
+    "id": "node_89",
+    "speaker": "Pro",
+    "text": "快乐无需道德评判",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_15",
+    "delta": -0.3,
+    "round_number": 10
+  },
+  {
+    "id": "node_90",
+    "speaker": "Pro",
+    "text": "快乐应作为独立价值存在",
+    "node_type": "new_argument",
+    "base_importance": 1.2,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 10
+  },
+  {
+    "id": "node_91",
+    "speaker": "Pro",
+    "text": "社会规范限制了快乐",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_4",
+    "delta": 0.3,
+    "round_number": 10
+  },
+  {
+    "id": "node_92",
+    "speaker": "Pro",
+    "text": "乐子人通过抽离获得快乐",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_18",
+    "delta": -0.3,
+    "round_number": 10
+  },
+  {
+    "id": "node_93",
+    "speaker": "Pro",
+    "text": "乐子人视角下的快乐是普遍的",
+    "node_type": "new_argument",
+    "base_importance": 1.0,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 10
+  },
+  {
+    "id": "node_94",
+    "speaker": "Pro",
+    "text": "乐子人思维超越社会角色",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_4",
+    "delta": 0.4,
+    "round_number": 10
+  },
+  {
+    "id": "node_95",
+    "speaker": "Pro",
+    "text": "乐子人快乐是真实的",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_15",
+    "delta": -0.3,
+    "round_number": 10
+  },
+  {
+    "id": "node_96",
+    "speaker": "Con",
+    "text": "快乐依赖社会角色存在",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_87",
+    "delta": -0.3,
+    "round_number": 11
+  },
+  {
+    "id": "node_97",
+    "speaker": "Con",
+    "text": "快乐不应独立于道德存在",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_90",
+    "delta": -0.3,
+    "round_number": 11
+  },
+  {
+    "id": "node_98",
+    "speaker": "Con",
+    "text": "乐子人视角下的快乐不普遍",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_93",
+    "delta": -0.3,
+    "round_number": 11
+  },
+  {
+    "id": "node_99",
+    "speaker": "Pro",
+    "text": "乐子人不漠视他人情绪",
+    "node_type": "attack",
+    "base_importance": 0.0,
+    "target_id": "node_18",
+    "delta": -0.3,
+    "round_number": 11
+  },
+  {
+    "id": "node_106",
+    "speaker": "Pro",
+    "text": "真正的快乐独立于社会角色和工具价值",
+    "node_type": "new_argument",
+    "base_importance": 1.2,
+    "target_id": null,
+    "delta": 0.0,
+    "round_number": 13
+  },
+  {
+    "id": "node_107",
+    "speaker": "Pro",
+    "text": "乐子人通过调侃和自我抽离保持快乐",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": 0.4,
+    "round_number": 13
+  },
+  {
+    "id": "node_108",
+    "speaker": "Pro",
+    "text": "乐子人拥有独特的防御机制",
+    "node_type": "support",
+    "base_importance": 0.0,
+    "target_id": "node_1",
+    "delta": 0.3,
+    "round_number": 13
+  }
+]
